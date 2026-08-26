@@ -46,6 +46,4 @@ Hands-on Linux learning journey focused on building practical Linux, command-lin
 
 ## Goal
 
-## Goal
-
 Build strong Linux fundamentals before progressing into networking, system administration, and cybersecurity.
