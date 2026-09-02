@@ -1,0 +1,20 @@
+INFO User alice logged in
+INFO User bob logged in
+INFO File report.pdf accessed
+WARNING Failed login attempt from 192.168.1.20
+INFO User alice uploaded project.zip
+ERROR Permission denied for /etc/shadow
+INFO User charlie logged in
+INFO File config.txt accessed
+WARNING Failed login attempt from 192.168.1.25
+INFO User bob logged out
+ERROR Connection failed to database
+INFO User alice logged out
+INFO Backup completed successfully
+WARNING Disk usage above 80 percent
+ERROR Failed to write backup file
+INFO User charlie logged out
+INFO System health check completed
+ERROR Service restart failed
+INFO Administrator logged in
+WARNING Multiple failed login attempts detected
