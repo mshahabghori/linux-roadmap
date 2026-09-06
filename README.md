@@ -47,6 +47,24 @@ Hands-on Linux learning journey focused on building practical Linux, command-lin
 - Log file analysis
 - Text file analysis lab
 
+### 04 — Users + Privileges
+**Completed · August 28, 2026**
+
+Topics covered:
+- Linux users and user types
+- `whoami`
+- `id`
+- `groups`
+- `sudo`
+- `su`
+- User management
+- Group management
+- `/etc/passwd`
+- `/etc/group`
+- `/etc/shadow`
+- Created and managed a test user and group
+
+
 ## Environment
 
 - Ubuntu
