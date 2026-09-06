@@ -33,6 +33,20 @@ Hands-on Linux learning journey focused on building practical Linux, command-lin
 - Filesystem operations lab
 - Reorganized 10 files using only the terminal
 
+### 03 — Text Files + Disk Usage
+**Completed · August 27, 2026**
+
+- `cat`
+- `head`
+- `tail`
+- `nano`
+- `wc`
+- `less`
+- `du`
+- Text file inspection
+- Log file analysis
+- Text file analysis lab
+
 ## Environment
 
 - Ubuntu
