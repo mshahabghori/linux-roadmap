@@ -65,6 +65,29 @@ Topics covered:
 - Created and managed a test user and group
 
 
+### 05 — Permissions + Package Management
+
+**Completed · August 29, 2026**
+
+Topics covered:
+
+- Linux file permissions
+- Owner, group, and others
+- Read, write, and execute permissions
+- `ls -l`
+- `chmod`
+- `chown`
+- `chgrp`
+- Numeric permissions
+- APT package management
+- `apt update`
+- `apt install`
+- `apt remove`
+- `apt upgrade`
+- `apt autoremove`
+- Permissions and package management labs
+- Practice Exam 1 — **18/30 (60%) · Passed**
+
 ## Environment
 
 - Ubuntu
