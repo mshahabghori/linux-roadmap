@@ -103,11 +103,57 @@ Topics covered:
 
 Build strong Linux fundamentals before progressing into networking, system administration, and cybersecurity.
 
-## Day 6 — Linux Security and Permissions Lab
+## 06 — Linux Security + Permissions Lab
 
-Hands-on practice with Linux users, groups, file ownership, permission
-bits, directory traversal, and script execution:
-[Open the Day 6 lab](06-linux-security-lab/README.md).
+**In Progress · August 30, 2026**
 
-Status: Testing and troubleshooting performed; final permission
-restoration and verification pending.
+Hands-on lab focused on Linux access control, user/group permissions, and security troubleshooting.
+
+### Topics Covered
+
+* Linux permission model: owner, group, and others
+* Read (`r`), write (`w`), and execute (`x`) permissions
+* Numeric permissions: `640`, `644`, `660`, `750`, `755`, `775`
+* File and directory permission differences
+* User and supplementary group membership
+* File ownership and group ownership
+* `chmod` — modify permissions
+* `chown` — change ownership
+* `chgrp` — change group ownership
+* `ls -l` and `ls -ld` — inspect permissions
+* `stat` — inspect file metadata
+* `namei -l` — inspect parent-directory permissions
+* Directory traversal and access control
+* Executable scripts and group-based access
+* Principle of least privilege
+
+### Practical Lab
+
+Created a Linux security lab with separate directories for public files, private files, scripts, and logs.
+
+* Created and tested three Linux users: `usera`, `userb`, and `userc`
+* Used `securityteam` and `logreaders` to practise group-based access
+* Tested read access to a confidential file under different user accounts
+* Investigated why an unintended user could read a supposedly private file
+* Troubleshot a failed file-write attempt by checking group membership and ownership
+* Changed file group ownership and successfully tested group-based write access
+* Tested shell-script execution under different user accounts
+* Used `namei -l` to identify parent-directory traversal restrictions
+* Inspected final file contents, ownership, and permission bits
+
+### Key Learnings
+
+* File permissions and ownership must work together to enforce access control.
+* Adding group-write permission does not fix an incorrect owning group.
+* Directory execute permission controls traversal, not file execution.
+* Parent-directory permissions can prevent access even when the target file's permissions appear correct.
+* Changing permissions does not reverse modifications already made to a file.
+* Least privilege means granting only the access required by each user.
+
+### Lab Documentation
+
+* [Day 6 — Detailed Lab Report](06-linux-security-lab/README.md)
+* [Permissions Quick Reference](06-linux-security-lab/permissions-reference.md)
+* [Verification Tests](06-linux-security-lab/verification.md)
+
+**Status:** Practical tests and troubleshooting performed. Final permission restoration and post-restoration verification remain pending.
