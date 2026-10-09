@@ -102,3 +102,12 @@ Topics covered:
 ## Goal
 
 Build strong Linux fundamentals before progressing into networking, system administration, and cybersecurity.
+
+## Day 6 — Linux Security and Permissions Lab
+
+Hands-on practice with Linux users, groups, file ownership, permission
+bits, directory traversal, and script execution:
+[Open the Day 6 lab](06-linux-security-lab/README.md).
+
+Status: Testing and troubleshooting performed; final permission
+restoration and verification pending.
