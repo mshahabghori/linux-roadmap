@@ -111,52 +111,45 @@ Hands-on lab focused on Linux access control, user/group permissions, and securi
 
 ### Topics Covered
 
-* Linux permission model: owner, group, and others
-* Read (`r`), write (`w`), and execute (`x`) permissions
-* Numeric permissions: `640`, `644`, `660`, `750`, `755`, `775`
-* File and directory permission differences
-* User and supplementary group membership
-* File ownership and group ownership
-* `chmod` — modify permissions
-* `chown` — change ownership
-* `chgrp` — change group ownership
-* `ls -l` and `ls -ld` — inspect permissions
-* `stat` — inspect file metadata
-* `namei -l` — inspect parent-directory permissions
-* Directory traversal and access control
-* Executable scripts and group-based access
-* Principle of least privilege
+- Linux permission model: owner, group, and others
+- Read (`r`), write (`w`), and execute (`x`) permissions
+- Numeric permissions: `640`, `644`, `660`, `750`, `755`, `775`
+- File and directory permission differences
+- User and supplementary group membership
+- File ownership and group ownership
+- `chmod`, `chown`, `chgrp`
+- `ls -l`, `ls -ld`, `stat`, and `namei -l`
+- Directory traversal and access control
+- Executable scripts and group-based access
+- Principle of least privilege
 
 ### Practical Lab
 
-Created a Linux security lab with separate directories for public files, private files, scripts, and logs.
-
-* Created and tested three Linux users: `usera`, `userb`, and `userc`
-* Used `securityteam` and `logreaders` to practise group-based access
-* Tested read access to a confidential file under different user accounts
-* Investigated why an unintended user could read a supposedly private file
-* Troubleshot a failed file-write attempt by checking group membership and ownership
-* Changed file group ownership and successfully tested group-based write access
-* Tested shell-script execution under different user accounts
-* Used `namei -l` to identify parent-directory traversal restrictions
-* Inspected final file contents, ownership, and permission bits
+- Created and tested three Linux users: `usera`, `userb`, and `userc`
+- Used `securityteam` and `logreaders` to practise group-based access
+- Tested confidential-file access under different user accounts
+- Troubleshot incorrect permissions, ownership, and group membership
+- Tested shell-script execution under different user accounts
+- Used `namei -l` to investigate directory traversal restrictions
+- Inspected file contents, ownership, and permission bits
 
 ### Key Learnings
 
-* File permissions and ownership must work together to enforce access control.
-* Adding group-write permission does not fix an incorrect owning group.
-* Directory execute permission controls traversal, not file execution.
-* Parent-directory permissions can prevent access even when the target file's permissions appear correct.
-* Changing permissions does not reverse modifications already made to a file.
-* Least privilege means granting only the access required by each user.
+- File permissions and ownership work together to enforce access control.
+- Group-write permission does not fix an incorrect owning group.
+- Directory execute permission controls traversal.
+- Parent-directory permissions can prevent access to a file.
+- Changing permissions does not reverse modifications already made.
+- Least privilege means granting only the access each user requires.
 
 ### Lab Documentation
 
-* [Day 6 — Detailed Lab Report](06-linux-security-lab/README.md)
-* [Permissions Quick Reference](06-linux-security-lab/permissions-reference.md)
-* [Verification Tests](06-linux-security-lab/verification.md)
+- [Day 6 — Detailed Lab Report](06-linux-security-lab/README.md)
+- [Permissions Quick Reference](06-linux-security-lab/permissions-reference.md)
+- [Verification Tests](06-linux-security-lab/verification.md)
 
 **Status:** Practical tests and troubleshooting performed. Final permission restoration and post-restoration verification remain pending.
+
 ## 07 — Pipes + Redirection
 
 **Completed · October 12, 2026**
@@ -196,3 +189,16 @@ Created a Linux security lab with separate directories for public files, private
 - [Day 7 — Lab Files](07-redirection-pipes/labs/README.md)
 
 **Status:** Completed · Practice files committed and pushed to GitHub.
+
+## Day 8 — Grep + Text Processing
+
+**Completed · September 1, 2026**
+
+Practised filtering and analysing a synthetic security log using `grep`, `cut`, `sort`, `uniq`, and `sed`.
+
+### Lab Documentation
+
+- [Day 8 — Lab Overview](08-grep-text-processing/README.md)
+- [Day 8 — Security Log Analysis Lab](08-grep-text-processing/labs/README.md)
+
+**Status:** Completed · Lab files committed and pushed to GitHub.
