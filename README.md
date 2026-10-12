@@ -111,3 +111,9 @@ bits, directory traversal, and script execution:
 
 Status: Testing and troubleshooting performed; final permission
 restoration and verification pending.
+
+## Day 8 — Grep + Text Processing
+
+Practised filtering and analysing a synthetic security log with `grep`, `cut`, `sort`, `uniq`, and `sed`.
+
+[Open the Day 8 lab](08-grep-text-processing/README.md).
