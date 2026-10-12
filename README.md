@@ -157,3 +157,42 @@ Created a Linux security lab with separate directories for public files, private
 * [Verification Tests](06-linux-security-lab/verification.md)
 
 **Status:** Practical tests and troubleshooting performed. Final permission restoration and post-restoration verification remain pending.
+## 07 — Pipes + Redirection
+
+**Completed · October 12, 2026**
+
+### Topics Covered
+
+- Standard input, standard output, and standard error
+- `>` — redirect output and overwrite files
+- `>>` — append output to files
+- `<` — read input from a file
+- `2>` — redirect errors
+- `2>&1` — combine standard error with standard output
+- `|` — pipe output between commands
+- `tee` — display and save output simultaneously
+- Log filtering and command chaining
+
+### Practical Lab
+
+- Redirected command output into files
+- Tested overwriting and appending output
+- Separated error messages from normal output
+- Combined standard output and standard error
+- Filtered log entries using pipes
+- Saved filtered results for later inspection
+
+### Key Learnings
+
+- Redirection controls where command input and output go.
+- Pipes pass one command's output to another command.
+- Standard output and standard error are separate streams.
+- `>` overwrites a file, while `>>` appends to it.
+- Combining pipes and redirection makes command-line workflows more efficient.
+
+### Lab Documentation
+
+- [Day 7 — Detailed Lab Report](07-redirection-pipes/README.md)
+- [Day 7 — Lab Files](07-redirection-pipes/labs/README.md)
+
+**Status:** Completed · Practice files committed and pushed to GitHub.
