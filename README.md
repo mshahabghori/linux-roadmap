@@ -202,3 +202,11 @@ Practised filtering and analysing a synthetic security log using `grep`, `cut`, 
 - [Day 8 — Security Log Analysis Lab](08-grep-text-processing/labs/README.md)
 
 **Status:** Completed · Lab files committed and pushed to GitHub.
+
+## Day 9 - Environment Variables and PATH
+
+**Topics:** Environment variables, `env`, `export`, `$PATH`, variable scope, Bash aliases, and `.bashrc`.
+
+**Lab:** [09 - Environment Variables and PATH](09-environment-path/README.md)
+
+**Security connection:** PATH hijacking, process environment, and shell startup-file security.
