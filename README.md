@@ -210,3 +210,11 @@ Practised filtering and analysing a synthetic security log using `grep`, `cut`, 
 **Lab:** [09 - Environment Variables and PATH](09-environment-path/README.md)
 
 **Security connection:** PATH hijacking, process environment, and shell startup-file security.
+
+## Day 10 - Bash Expansions
+
+**Topics:** Variables, wildcards, quoting, escaping, word splitting, and command substitution.
+
+**Lab:** [10 - Bash Expansions](10-bash-expansions/README.md)
+
+**Security connection:** Safely handling filenames, processing logs, and writing reliable shell scripts.
