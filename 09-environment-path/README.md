@@ -1,10 +1,20 @@
-# Day 9 - Environment Variables and PATH
+# Day 9 — Environment Variables and PATH
+
+[← Roadmap](../README.md) · [← Day 8](../08-grep-text-processing/README.md) · [Day 10 →](../10-bash-expansions/README.md)
 
 ## Objective
 
 Understand how Linux environment variables work, how Bash finds
 commands, how variables are passed to child processes, and how
 aliases and .bashrc customize the shell.
+
+## Status and evidence
+
+- **Course (videos, quizzes, role play):** unknown.
+- **Lab:** unverified. No completion status has been recorded for Day 9.
+- **Recorded observations (verified in this README):** the username (`skeleton`), the locale (`en_US.UTF-8`), the PATH entries (including `/snap/bin` twice), the Python 3 location (`/usr/bin/python3`), and that an `ll` alias already existed.
+- **Not recorded:** output from `env`, `printenv`, the `export` test, and `command -v python`; and the result of the new-terminal alias check in section 5.
+- **Reading this document:** command blocks list what was practised; "Concepts" and "Expected behavior" describe how things should work; recorded results are the "Observation" and "Observed PATH" notes and the existing-`ll`-alias note in section 4.
 
 ## 1. Inspecting Environment Variables
 
@@ -195,6 +205,8 @@ ll
 
 The alias should still be available if the new interactive Bash
 session loads the configuration.
+
+Result of this check: not recorded.
 
 ### Safety Note
 

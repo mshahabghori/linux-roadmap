@@ -1,5 +1,7 @@
 # Permissions Lab
 
+[← Day 5](../../README.md) · [← Roadmap](../../../README.md)
+
 Hands-on practice with Linux file permissions and ownership.
 
 ## Commands Practiced
@@ -37,7 +39,8 @@ x = 1
 Example:
 
 644 = rw-r--r--
+```
 
-Security Relevance
+## Security Relevance
 
 Permissions are a fundamental Linux access-control mechanism. Misconfigured permissions can allow unauthorized users to read, modify, or execute files.

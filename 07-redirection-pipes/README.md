@@ -1,7 +1,8 @@
+# Day 7 — Pipes and Redirection
 
-## Day 7 — Pipes and Redirection
+[← Roadmap](../README.md) · [Lab guide](labs/README.md) · [← Day 6](../06-linux-security-lab/README.md) · [Day 8 →](../08-grep-text-processing/README.md)
 
-### Topics Covered
+## Topics Covered
 - Standard input (stdin), standard output (stdout), and standard error (stderr)
 - Output redirection using `>` and `>>`
 - Input redirection using `<`
@@ -13,7 +14,7 @@
 - Displaying line numbers using `grep -n`
 - Saving and displaying output using `tee`
 
-### Practice Commands
+## Practice Commands
 
 ```bash
 echo "System started" > output.txt
@@ -41,7 +42,7 @@ cat errors.txt
 ls output.txt nonexistent_file 2>&1 | tee all-output.txt
 ```
 
-### Key Learnings
+## Key Learnings
 - `>` overwrites a file; `>>` appends to it.
 - `<` supplies input from a file.
 - `2>` redirects error messages.
@@ -50,6 +51,14 @@ ls output.txt nonexistent_file 2>&1 | tee all-output.txt
 - `tee` displays output and saves it simultaneously.
 - `grep` filters matching lines, while `wc -l` counts lines.
 
-### Mini Lab
+## Mini Lab
 Practised filtering failed-login messages, counting matching entries, capturing command errors, combining output streams, and saving filtered results to files.
 
+See the [lab guide](labs/README.md) for the files produced.
+
+## Status and evidence
+
+- **Course (videos, quizzes):** unknown.
+- **Lab:** reported complete (see the [roadmap](../README.md)).
+- **Verified in files:** `labs/output.txt`, `labs/errors.txt`, `labs/combined.txt`, and `labs/failed-logins.txt` are consistent with the commands above. `labs/all-output.txt`, which the final `tee` command above would create, is not present in the repository.
+- **Not recorded:** terminal output for the individual commands (for example `wc -l`, `grep -n`, and `tee`).

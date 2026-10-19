@@ -1,5 +1,7 @@
 # Day 6 Verification Tests
 
+[← Day 6 report](README.md) · [← Roadmap](../README.md)
+
 Run these tests against the lab in your environment. Compare actual
 results with the expected results; do not assume the configuration is
 correct merely because a command ran.
