@@ -1,5 +1,7 @@
 # Security Log Analysis Lab
 
+[← Day 8](../README.md) · [← Roadmap](../../README.md)
+
 ## Objective
 
 Use Linux text-processing commands to investigate a sample security log.

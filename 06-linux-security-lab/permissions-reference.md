@@ -1,5 +1,7 @@
 # Linux Permissions Quick Reference
 
+[← Day 6 report](README.md) · [← Roadmap](../README.md)
+
 ## Inspect
 
 ```bash

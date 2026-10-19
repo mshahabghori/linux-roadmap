@@ -1,5 +1,7 @@
 # Day 6 — Linux Security and Permissions Lab
 
+[← Roadmap](../README.md) · [← Day 5](../05-permissions-packages/README.md) · [Day 7 →](../07-redirection-pipes/README.md) · [Quick reference](permissions-reference.md) · [Verification tests](verification.md)
+
 ## Overview
 
 This lab explores how Linux users, groups, file ownership, and permission

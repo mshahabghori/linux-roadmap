@@ -1,9 +1,12 @@
 # User Management Lab
 
+[← Roadmap](../../../README.md)
+
 Hands-on practice with Linux users, groups, sudo, su, and account files.
 
 ## Commands Practiced
 
+```bash
 whoami
 id
 groups
@@ -15,6 +18,7 @@ usermod
 cat /etc/passwd
 cat /etc/group
 sudo cat /etc/shadow
+```
 
 ## Tasks Completed
 

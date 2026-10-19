@@ -1,9 +1,18 @@
-# Day 10 - Bash Expansions
+# Day 10 — Bash Expansions
+
+[← Roadmap](../README.md) · [← Day 9](../09-environment-path/README.md) · [Lab files](lab-files/)
 
 ## Goal
 
 Understand how Bash expands variables, matches filenames, handles quotes,
 splits words, and substitutes command output.
+
+## Status and evidence
+
+- **Course (videos, quizzes, File Extraction exercise):** unknown.
+- **Lab:** unverified. No completion status has been recorded for Day 10.
+- **Verified in files:** the commands below and the test files in [`lab-files/`](lab-files/). The contents of `lab-files/access log.txt` match the three `echo` commands in section 6.
+- **Not recorded:** the output of any command here (wildcards, quoting, word splitting, command substitution).
 
 ## Topics
 
@@ -16,7 +25,14 @@ splits words, and substitutes command output.
 
 ## Practical Lab
 
-Practice files are stored in `lab-files/`.
+Practice files are stored in [`lab-files/`](lab-files/). To reproduce the commands below, run them from inside that folder so the wildcards match these files.
+
+Files currently in `lab-files/`:
+
+- `access log.txt` — three lines, matching the commands in section 6.
+- Eight empty files: `failed login.log`, `file1.txt`, `file2.txt`, `fileA.txt`, `notes with spaces.md`, `report.csv`, `report.txt`, and `special's file.txt`.
+
+The file names with spaces and an apostrophe are intentional test cases; keep them quoted.
 
 ### 1. Home directory and variables
 
@@ -103,3 +119,9 @@ ls *.txt | wc -l
 - Use `${VARIABLE}` when variable boundaries need to be explicit.
 - Use `$(command)` to capture command output.
 - Understand how Bash expansion affects the arguments a command receives.
+
+## Cybersecurity Relevance
+
+- Safely handling filenames that contain spaces or special characters.
+- Avoiding unintended shell expansion by quoting variables and patterns.
+- Writing reliable shell scripts and log-processing commands.
