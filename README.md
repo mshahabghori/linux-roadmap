@@ -266,3 +266,10 @@ Practised filtering and analysing a synthetic security log using `grep`, `cut`, 
 Topics: SSH, key verification, SCP/SFTP, Apache, systemctl, and log inspection.
 
 Lab: [11-ssh-webserver](11-ssh-webserver/README.md)
+
+## Day 12 — Linux Final Lab
+
+**Status:** Completed  
+Consolidated filesystem operations, users and groups, permissions, APT, text processing, pipes, redirection, environment variables, Bash expansions, SSH, SCP, services, and log inspection.
+
+Lab: [12-linux-final-lab](12-linux-final-lab/README.md)
