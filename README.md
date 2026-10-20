@@ -259,3 +259,10 @@ Practised filtering and analysing a synthetic security log using `grep`, `cut`, 
 **Lab:** [10 - Bash Expansions](10-bash-expansions/README.md) · [Lab files](10-bash-expansions/lab-files/)
 
 **Security connection:** Safely handling filenames, processing logs, and writing reliable shell scripts.
+
+## Day 11 — SSH and Webserver Essentials
+**Status:** Lab documented
+
+Topics: SSH, key verification, SCP/SFTP, Apache, systemctl, and log inspection.
+
+Lab: [11-ssh-webserver](11-ssh-webserver/README.md)
