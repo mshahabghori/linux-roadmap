@@ -1,7 +1,21 @@
 # Day 11 — SSH and Webserver Essentials
 
+[← Roadmap](../README.md) · [← Day 10](../10-bash-expansions/README.md) · [Day 12 →](../12-linux-final-lab/README.md)
+
+**Status:** in progress — **2 of 8** checklist items reported complete. This is the author's reported status; no repository file records evidence for any item.
+
+**Course coverage:** Section 9 (SSH, authentication, Apache, service management, file transfers, logs). See [course mapping](../docs/COURSE-MAP.md).
+
 ## Objective
 Practice SSH connectivity, SSH key verification, file transfers, Linux service management, Apache hosting, and log inspection.
+
+## Labs
+
+| Lab | Status |
+|---|---|
+| [SSH key authentication](labs/ssh-key-authentication/README.md) | Not started |
+| [File transfer (SCP and SFTP)](labs/file-transfer/README.md) | Not started |
+| [Apache service and logs](labs/apache-service-and-logs/README.md) | Not started |
 
 ## Environment
 - OS: Ubuntu VM
@@ -10,7 +24,23 @@ Practice SSH connectivity, SSH key verification, file transfers, Linux service m
 - Lab location: Ubuntu virtual machine
 - Repository: linux-roadmap
 
-## Tasks Practiced
+## Progress checklist (2 of 8)
+
+- [x] SSH server installed and running.
+- [x] Connected successfully using SSH.
+- [ ] Generated an SSH key pair safely. → [SSH key authentication lab](labs/ssh-key-authentication/README.md)
+- [ ] Transferred a test file using `scp` or `sftp`. → [File transfer lab](labs/file-transfer/README.md)
+- [ ] Installed Apache and checked its status. → [Apache service and logs lab](labs/apache-service-and-logs/README.md)
+- [ ] Started and stopped Apache successfully. → same lab
+- [ ] Opened the local web page. → same lab
+- [ ] Inspected Apache access and error logs. → same lab
+
+Connecting over SSH does not show that key-based login, file transfer, Apache, or log inspection were done.
+
+## Original task list
+
+This list was written before the checklist above. Only its first two items match completed checklist items; treat the rest as planned tasks, not completed work.
+
 - Installed and checked the SSH server.
 - Connected using `ssh localhost` and the VM's private IP.
 - Inspected SSH key files and verified the public-key fingerprint and private-key validity.
@@ -54,4 +84,5 @@ Replace `VM_IP` with your VM's actual IP address.
 - A private VM IP does not automatically make a website publicly accessible.
 
 ## Outcome
-Practiced basic Linux remote access, file transfer, service management, local web hosting, and server-log inspection.
+
+Partly done: SSH server installed and a connection made. File transfer, key authentication, Apache, and log inspection are still to do. Commands in the reference list above have not been verified by files in this repository.

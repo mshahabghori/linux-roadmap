@@ -1,7 +1,13 @@
 # Day 12 — Linux Final Lab
 
-**Status:** Completed  
+[← Roadmap](../README.md) · [← Day 11](../11-ssh-webserver/README.md) · [Final challenge lab](labs/final-challenge/README.md)
+
+**Status:** reported complete by the author — **unverified**. No notes, commands, or output are recorded in this repository (`notes/` is empty).
 **Purpose:** Consolidate Linux command-line skills through an independent practical challenge.
+
+> **Needs your confirmation:** section 5 below (SSH, SCP, services, logs) overlaps the [Day 11 checklist](../11-ssh-webserver/README.md#progress-checklist-2-of-8), where only 2 of 8 items are reported complete. Until that is resolved, this status stays "reported, unverified". The [final challenge lab](labs/final-challenge/README.md) is a written-down version for a run that leaves evidence.
+
+**Course coverage:** none. This is an independent practical challenge and review, not an official course section. See [course mapping](../docs/COURSE-MAP.md).
 
 ## Skills Practiced
 
@@ -37,13 +43,17 @@
 
 ## Completion Criteria
 
-The final challenge was completed independently from a fresh terminal, without following a tutorial.
+The author reports completing the final challenge independently from a fresh terminal, without following a tutorial. This is a reported claim; no file here confirms it.
 
 ## Safety Notes
 - Use test files and test accounts for practice.
 - Avoid modifying system-critical files.
 - Use `sudo` only when necessary.
 - Never expose private SSH keys.
+
+## Labs
+
+- [Final challenge](labs/final-challenge/README.md) — Not started (written-down version).
 
 ## Next Stage
 Proceed to Linux revision and networking fundamentals.

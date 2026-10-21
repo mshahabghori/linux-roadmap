@@ -32,18 +32,22 @@ Course progress is **unknown** for every day below. The only course-related reco
 
 | Day | Topic | Lab status | Evidence in this repository | Documentation |
 |---|---|---|---|---|
-| 01 | Linux & Command Line Fundamentals | reported complete | verified in files: practice notes; no command output | [Notes](01-command-line/exercises/navigation.md) |
-| 02 | Filesystem Operations | reported complete | verified in files: 10 practice files in four folders; no commands or output recorded | [Lab files](02-filesystem/labs/filesystem-organization/) |
-| 03 | Text Files + Disk Usage | reported complete | verified in files: 20-line sample `contribution.log`; no analysis results recorded | [Lab files](03-text-processing/labs/text-file-analysis/) |
-| 04 | Users + Privileges | reported complete | verified in files: lab README listing commands and tasks; no output recorded | [Lab guide](04-users-system/labs/user-management/README.md) |
+| 01 | Linux & Command Line Fundamentals | reported complete | verified in files: practice notes; no command output | [Notes](01-command-line/labs/navigation/README.md) |
+| 02 | Filesystem Operations | reported complete | verified in files: 10 practice files in four folders; no commands or output recorded | [Day](02-filesystem/README.md) · [Lab](02-filesystem/labs/filesystem-organization/README.md) |
+| 03 | Text Files + Disk Usage | reported complete | verified in files: 20-line sample `contribution.log`; no analysis results recorded | [Day](03-text-processing/README.md) · [Lab](03-text-processing/labs/text-file-analysis/README.md) |
+| 04 | Users + Privileges | reported complete | verified in files: lab README listing commands and tasks; no output recorded | [Day](04-users-system/README.md) · [Lab](04-users-system/labs/user-management/README.md) |
 | 05 | Permissions + Package Management | reported complete | verified in files: day and lab READMEs; no command output recorded | [Day](05-permissions-packages/README.md) · [Permissions lab](05-permissions-packages/labs/permissions/README.md) · [Package lab](05-permissions-packages/labs/package-management/README.md) |
 | 06 | Linux Security + Permissions Lab | in progress (reported) | verified in files: detailed report with observations; final restoration and re-verification unverified | [Report](06-linux-security-lab/README.md) · [Reference](06-linux-security-lab/permissions-reference.md) · [Verification](06-linux-security-lab/verification.md) |
-| 07 | Pipes + Redirection | reported complete | verified in files: output files consistent with the README commands; `all-output.txt` is not present | [Day](07-redirection-pipes/README.md) · [Lab](07-redirection-pipes/labs/README.md) |
-| 08 | Grep + Text Processing | reported complete | verified in files: counts in `summary.txt` match `security.log` (checked during a documentation review); commands used not recorded | [Day](08-grep-text-processing/README.md) · [Lab](08-grep-text-processing/labs/README.md) |
+| 07 | Pipes + Redirection | reported complete | verified in files: output files consistent with the README commands; `all-output.txt` is not present | [Day](07-redirection-pipes/README.md) · [Lab](07-redirection-pipes/labs/redirection-practice/README.md) |
+| 08 | Grep + Text Processing | reported complete | verified in files: counts in `summary.txt` match `security.log` (checked during a documentation review); commands used not recorded | [Day](08-grep-text-processing/README.md) · [Lab](08-grep-text-processing/labs/security-log-analysis/README.md) |
 | 09 | Environment Variables and PATH | unverified | verified in files: recorded observations; new-terminal alias check not recorded | [Day](09-environment-path/README.md) |
-| 10 | Bash Expansions | unverified | verified in files: command list and test files; no command output recorded | [Day](10-bash-expansions/README.md) · [Lab files](10-bash-expansions/lab-files/) |
+| 10 | Bash Expansions | unverified | verified in files: command list and test files; no command output recorded | [Day](10-bash-expansions/README.md) · [Lab](10-bash-expansions/labs/bash-expansions/README.md) |
+| 11 | SSH and Webserver Essentials | in progress (2 of 8 reported) | verified in files: documentation and command list; no evidence for any checklist item | [Day](11-ssh-webserver/README.md) |
+| 12 | Linux Final Lab | reported complete (unverified) | verified in files: documentation only; no notes or output. Overlaps SSH items not yet done in Day 11 | [Day](12-linux-final-lab/README.md) |
 
-Planned sprint Day 11 (SSH and server fundamentals) and the buffer day (Practice Exam 2, final challenge) have no folders in this repository; their status is unknown.
+Practice Exam 2 has no record in this repository; its status is unknown.
+
+Topic numbers are the author's study sequence, not official course sections. See the [course mapping](docs/COURSE-MAP.md). For what was found, moved, and left unverified, see the [repository audit](docs/REPOSITORY-AUDIT.md). Labs marked **Not started** are new exercises added in the audit, not completed work.
 
 ## Daily Progress
 
@@ -62,7 +66,7 @@ Planned sprint Day 11 (SSH and server fundamentals) and the buffer day (Practice
 - `man`
 - Basic command-line syntax
 
-**Documentation:** [Command-line navigation notes](01-command-line/exercises/navigation.md)
+**Documentation:** [Day 1 overview](01-command-line/README.md) · [Command-line navigation notes](01-command-line/labs/navigation/README.md)
 
 ### 02 — Filesystem Operations
 **Completed · August 26, 2026**
@@ -78,7 +82,7 @@ Planned sprint Day 11 (SSH and server fundamentals) and the buffer day (Practice
 - Filesystem operations lab
 - Reorganized 10 files using only the terminal
 
-**Documentation:** [Filesystem organization lab files](02-filesystem/labs/filesystem-organization/)
+**Documentation:** [Day 2 overview](02-filesystem/README.md) · [Filesystem organization lab](02-filesystem/labs/filesystem-organization/README.md)
 
 ### 03 — Text Files + Disk Usage
 **Completed · August 27, 2026**
@@ -94,7 +98,7 @@ Planned sprint Day 11 (SSH and server fundamentals) and the buffer day (Practice
 - Log file analysis
 - Text file analysis lab
 
-**Documentation:** [Text file analysis lab files](03-text-processing/labs/text-file-analysis/)
+**Documentation:** [Day 3 overview](03-text-processing/README.md) · [Text file analysis lab](03-text-processing/labs/text-file-analysis/README.md)
 
 ### 04 — Users + Privileges
 **Completed · August 28, 2026**
@@ -113,7 +117,7 @@ Topics covered:
 - `/etc/shadow`
 - Created and managed a test user and group
 
-**Documentation:** [User management lab](04-users-system/labs/user-management/README.md)
+**Documentation:** [Day 4 overview](04-users-system/README.md) · [User management lab](04-users-system/labs/user-management/README.md)
 
 ### 05 — Permissions + Package Management
 
@@ -227,7 +231,7 @@ Hands-on lab focused on Linux access control, user/group permissions, and securi
 #### Lab Documentation
 
 - [Day 7 — Detailed Lab Report](07-redirection-pipes/README.md)
-- [Day 7 — Lab Files](07-redirection-pipes/labs/README.md)
+- [Day 7 — Redirection Practice Lab](07-redirection-pipes/labs/redirection-practice/README.md)
 
 **Status:** Completed · Practice files committed and pushed to GitHub.
 
@@ -240,7 +244,7 @@ Practised filtering and analysing a synthetic security log using `grep`, `cut`, 
 #### Lab Documentation
 
 - [Day 8 — Lab Overview](08-grep-text-processing/README.md)
-- [Day 8 — Security Log Analysis Lab](08-grep-text-processing/labs/README.md)
+- [Day 8 — Security Log Analysis Lab](08-grep-text-processing/labs/security-log-analysis/README.md)
 
 **Status:** Completed · Lab files committed and pushed to GitHub.
 
@@ -256,20 +260,33 @@ Practised filtering and analysing a synthetic security log using `grep`, `cut`, 
 
 **Topics:** Variables, wildcards, quoting, escaping, word splitting, and command substitution.
 
-**Lab:** [10 - Bash Expansions](10-bash-expansions/README.md) · [Lab files](10-bash-expansions/lab-files/)
+**Lab:** [10 - Bash Expansions](10-bash-expansions/README.md) · [Lab](10-bash-expansions/labs/bash-expansions/README.md)
 
 **Security connection:** Safely handling filenames, processing logs, and writing reliable shell scripts.
 
-## Day 11 — SSH and Webserver Essentials
-**Status:** Lab documented
+### 11 — SSH and Webserver Essentials
 
-Topics: SSH, key verification, SCP/SFTP, Apache, systemctl, and log inspection.
+**In progress · 2 of 8 checklist items reported complete**
 
-Lab: [11-ssh-webserver](11-ssh-webserver/README.md)
+**Topics:** SSH, key verification, SCP/SFTP, Apache, `systemctl`, and log inspection.
 
-## Day 12 — Linux Final Lab
+- [x] SSH server installed and running
+- [x] Connected successfully using SSH
+- [ ] SSH key pair generated · [lab](11-ssh-webserver/labs/ssh-key-authentication/README.md)
+- [ ] Test file transferred with `scp` or `sftp` · [lab](11-ssh-webserver/labs/file-transfer/README.md)
+- [ ] Apache installed, started and stopped, page opened, logs inspected · [lab](11-ssh-webserver/labs/apache-service-and-logs/README.md)
 
-**Status:** Completed  
-Consolidated filesystem operations, users and groups, permissions, APT, text processing, pipes, redirection, environment variables, Bash expansions, SSH, SCP, services, and log inspection.
+**Lab:** [11-ssh-webserver](11-ssh-webserver/README.md)
 
-Lab: [12-linux-final-lab](12-linux-final-lab/README.md)
+### 12 — Linux Final Lab
+
+**Reported complete · unverified**
+
+Independent final practical challenge consolidating earlier topics. No notes or output are recorded, and it overlaps the SSH items not yet done in Day 11.
+
+**Lab:** [12-linux-final-lab](12-linux-final-lab/README.md) · [Final challenge (Not started)](12-linux-final-lab/labs/final-challenge/README.md)
+
+## Course Mapping and Audit
+
+- [Course mapping](docs/COURSE-MAP.md) — how topic numbers relate to the official course sections
+- [Repository audit](docs/REPOSITORY-AUDIT.md) — what was found, moved, created, and left unverified
