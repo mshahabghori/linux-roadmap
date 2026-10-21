@@ -1,6 +1,6 @@
 # Security Log Analysis Lab
 
-[← Day 8](../README.md) · [← Roadmap](../../README.md)
+[← Day 8](../../README.md) · [← Roadmap](../../../README.md)
 
 ## Objective
 

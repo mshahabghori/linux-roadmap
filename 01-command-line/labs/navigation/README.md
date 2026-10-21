@@ -1,6 +1,6 @@
 # Command Line Navigation
 
-[← Roadmap](../../README.md)
+[← Day 1](../../README.md) · [← Roadmap](../../../README.md)
 
 ## Commands Practiced
 

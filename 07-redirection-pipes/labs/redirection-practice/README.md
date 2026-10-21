@@ -1,6 +1,6 @@
 # Day 7 Lab — Pipes and Redirection
 
-[← Day 7](../README.md) · [← Roadmap](../../README.md)
+[← Day 7](../../README.md) · [← Roadmap](../../../README.md)
 
 ## Objectives
 - Practise input, output, and error redirection.
@@ -23,7 +23,7 @@
 - `errors.txt` — redirected error messages
 - `combined.txt` — combined standard output and standard error
 - `failed-logins.txt` — filtered failed-login messages
-- `all-output.txt` — output and errors captured through a pipe. **Not present in the repository (unverified).** It would be created by the final `tee` command in the [Day 7 README](../README.md).
+- `all-output.txt` — output and errors captured through a pipe. **Not present in the repository (unverified).** It would be created by the final `tee` command in the [Day 7 README](../../README.md).
 - `lab.txt` — contains one line, `INFO: New session started`. Its purpose is not recorded, and no command in the Day 7 README refers to it.
 
 ## Outcome
