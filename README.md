@@ -1,292 +1,268 @@
-# Linux Roadmap
+# 🐧 Linux Roadmap
 
-Hands-on Linux learning journey focused on building practical Linux, command-line, system administration, Bash, and networking skills.
+A hands-on Linux learning journey focused on building practical skills in Linux fundamentals, command-line usage, system administration, Bash, SSH and web servers, and the security thinking behind them.
 
-## Environment
-
-- Ubuntu
-- VMware
-- Bash
-- Git & GitHub
-
-## Approach
+This repository documents my progress through practical exercises, troubleshooting, and labs in Ubuntu. The goal is to understand how Linux works by using the terminal, solving problems, and writing down what I learn along the way.
 
 **Learn → Practice → Break → Fix → Build**
 
-## Goal
+## 🛠️ Environment
 
-Build strong Linux fundamentals before progressing into networking, system administration, and cybersecurity.
+- **Operating system:** Ubuntu Linux
+- **Virtualization:** VMware
+- **Shell:** Bash
+- **Version control:** Git and GitHub
 
-## Progress at a glance
+## 🎯 Goals
 
-Course progress (videos, quizzes, role plays, practice exams), lab status, and evidence are tracked separately.
+Build a strong foundation in Linux before moving on to networking, system administration, and cybersecurity.
 
-Status labels:
+The focus is on practical command-line skills, understanding permissions and access control, working with system tools, analysing logs, and troubleshooting problems independently.
 
-- **verified in files** — backed by files in this repository.
-- **reported complete** — stated as complete by the author; not independently confirmed by repository files.
-- **unverified** — listed or documented, but no completion status or evidence confirms it.
-- **unknown** — not tracked in this repository.
+## 📚 Roadmap Overview
 
-Course progress is **unknown** for every day below. The only course-related record is a reported Practice Exam 1 score on Day 5, which has no record in this repository. Dates shown in the daily entries have not been verified as actual learning or completion dates; actual dates are not yet reconstructed.
+The repository follows my own 12-day study sequence. Each day has its own folder with a README and hands-on labs.
 
-| Day | Topic | Lab status | Evidence in this repository | Documentation |
+| Day | Topic | Main Areas | Status | Lab |
 |---|---|---|---|---|
-| 01 | Linux & Command Line Fundamentals | reported complete | verified in files: practice notes; no command output | [Notes](01-command-line/labs/navigation/README.md) |
-| 02 | Filesystem Operations | reported complete | verified in files: 10 practice files in four folders; no commands or output recorded | [Day](02-filesystem/README.md) · [Lab](02-filesystem/labs/filesystem-organization/README.md) |
-| 03 | Text Files + Disk Usage | reported complete | verified in files: 20-line sample `contribution.log`; no analysis results recorded | [Day](03-text-processing/README.md) · [Lab](03-text-processing/labs/text-file-analysis/README.md) |
-| 04 | Users + Privileges | reported complete | verified in files: lab README listing commands and tasks; no output recorded | [Day](04-users-system/README.md) · [Lab](04-users-system/labs/user-management/README.md) |
-| 05 | Permissions + Package Management | reported complete | verified in files: day and lab READMEs; no command output recorded | [Day](05-permissions-packages/README.md) · [Permissions lab](05-permissions-packages/labs/permissions/README.md) · [Package lab](05-permissions-packages/labs/package-management/README.md) |
-| 06 | Linux Security + Permissions Lab | in progress (reported) | verified in files: detailed report with observations; final restoration and re-verification unverified | [Report](06-linux-security-lab/README.md) · [Reference](06-linux-security-lab/permissions-reference.md) · [Verification](06-linux-security-lab/verification.md) |
-| 07 | Pipes + Redirection | reported complete | verified in files: output files consistent with the README commands; `all-output.txt` is not present | [Day](07-redirection-pipes/README.md) · [Lab](07-redirection-pipes/labs/redirection-practice/README.md) |
-| 08 | Grep + Text Processing | reported complete | verified in files: counts in `summary.txt` match `security.log` (checked during a documentation review); commands used not recorded | [Day](08-grep-text-processing/README.md) · [Lab](08-grep-text-processing/labs/security-log-analysis/README.md) |
-| 09 | Environment Variables and PATH | unverified | verified in files: recorded observations; new-terminal alias check not recorded | [Day](09-environment-path/README.md) |
-| 10 | Bash Expansions | unverified | verified in files: command list and test files; no command output recorded | [Day](10-bash-expansions/README.md) · [Lab](10-bash-expansions/labs/bash-expansions/README.md) |
-| 11 | SSH and Webserver Essentials | in progress (2 of 8 reported) | verified in files: documentation and command list; no evidence for any checklist item | [Day](11-ssh-webserver/README.md) |
-| 12 | Linux Final Lab | reported complete (unverified) | verified in files: documentation only; no notes or output. Overlaps SSH items not yet done in Day 11 | [Day](12-linux-final-lab/README.md) |
+| [01](01-command-line/README.md) | Command-Line Fundamentals | Bash basics, navigation, help, command syntax | ✅ Completed | [Navigation](01-command-line/labs/navigation/README.md) |
+| [02](02-filesystem/README.md) | Filesystem Operations | Files, directories, copying, moving, deletion | ✅ Completed | [Filesystem organization](02-filesystem/labs/filesystem-organization/README.md) |
+| [03](03-text-processing/README.md) | Text Files and Disk Usage | `cat`, `head`, `tail`, `nano`, `wc`, `less`, `du` | ✅ Completed | [Text file analysis](03-text-processing/labs/text-file-analysis/README.md) |
+| [04](04-users-system/README.md) | Users and Privileges | Users, groups, `sudo`, `su`, system account files | ✅ Completed | [User management](04-users-system/labs/user-management/README.md) |
+| [05](05-permissions-packages/README.md) | Permissions and Package Management | `chmod`, `chown`, `chgrp`, APT | ✅ Completed | [Permissions](05-permissions-packages/labs/permissions/README.md) · [Packages](05-permissions-packages/labs/package-management/README.md) |
+| [06](06-linux-security-lab/README.md) | Linux Security and Access Control | Ownership, permissions, groups, least privilege | ✅ Completed | [Lab report](06-linux-security-lab/README.md) |
+| [07](07-redirection-pipes/README.md) | Pipes and Redirection | Standard streams, redirection, pipes, `tee` | ✅ Completed | [Redirection practice](07-redirection-pipes/labs/redirection-practice/README.md) |
+| [08](08-grep-text-processing/README.md) | Grep and Text Processing | Filtering, extracting, sorting, log analysis | ✅ Completed | [Security log analysis](08-grep-text-processing/labs/security-log-analysis/README.md) |
+| [09](09-environment-path/README.md) | Environment Variables and PATH | `export`, PATH, aliases, `.bashrc` | ✅ Completed | [Notes](09-environment-path/README.md) |
+| [10](10-bash-expansions/README.md) | Bash Expansions | Variables, globbing, quoting, word splitting | ✅ Completed | [Bash expansions](10-bash-expansions/labs/bash-expansions/README.md) |
+| [11](11-ssh-webserver/README.md) | SSH and Webserver Essentials | SSH, keys, file transfers, Apache, services, logs | ✅ Completed | [SSH keys](11-ssh-webserver/labs/ssh-key-authentication/README.md) · [Transfers](11-ssh-webserver/labs/file-transfer/README.md) · [Apache](11-ssh-webserver/labs/apache-service-and-logs/README.md) |
+| [12](12-linux-final-lab/README.md) | Linux Final Lab | Integrated practical challenge | ✅ Completed | [Final challenge](12-linux-final-lab/labs/final-challenge/README.md) |
 
-Practice Exam 2 has no record in this repository; its status is unknown.
+## 💻 Daily Progress
 
-Topic numbers are the author's study sequence, not official course sections. See the [course mapping](docs/COURSE-MAP.md). For what was found, moved, and left unverified, see the [repository audit](docs/REPOSITORY-AUDIT.md). Labs marked **Not started** are new exercises added in the audit, not completed work.
+### Day 01 — Linux and Command-Line Fundamentals
 
-## Daily Progress
+**Status:** ✅ Completed · August 25, 2026
 
-### 01 — Linux & Command Line Fundamentals
-**Completed · August 25, 2026**
+Established the basics of working in a Linux terminal and moving around the filesystem.
 
-- Linux and Bash basics
-- Command-line navigation
-- `pwd`
-- `ls`
-- `ls -la`
-- `cd`
-- `.`, `..`, `~`
-- `echo`
-- `--help`
-- `man`
-- Basic command-line syntax
+**Concepts and commands**
+- Linux and Bash fundamentals.
+- Command-line syntax and basic command execution.
+- Navigation using `pwd`, `ls`, and `cd`.
+- Listing hidden files and directory contents with `ls -la`.
+- Relative paths, `.`, `..`, and `~`.
+- Basic output using `echo`.
+- Command help using `--help` and `man`.
 
-**Documentation:** [Day 1 overview](01-command-line/README.md) · [Command-line navigation notes](01-command-line/labs/navigation/README.md)
+**Documentation:** [Day 01 overview](01-command-line/README.md) · [Navigation lab](01-command-line/labs/navigation/README.md)
 
-### 02 — Filesystem Operations
-**Completed · August 26, 2026**
+### Day 02 — Filesystem Operations
 
-- `touch`
-- `mkdir`
-- `mv`
-- `cp`
-- `rm`
-- `rmdir`
-- Directory navigation
-- File organization
-- Filesystem operations lab
-- Reorganized 10 files using only the terminal
+**Status:** ✅ Completed · August 26, 2026
 
-**Documentation:** [Day 2 overview](02-filesystem/README.md) · [Filesystem organization lab](02-filesystem/labs/filesystem-organization/README.md)
+Practised file and directory management from the terminal. The exercise involved reorganising ten sample files into four folders without a graphical file manager.
 
-### 03 — Text Files + Disk Usage
-**Completed · August 27, 2026**
+**Concepts and commands**
+- Creating files and directories with `touch` and `mkdir`.
+- Moving and renaming files with `mv`.
+- Copying files with `cp`.
+- Removing files and empty directories with `rm` and `rmdir`.
+- Navigating directories and working with relative paths.
+- Organising documents, images, backups, and scripts.
 
-- `cat`
-- `head`
-- `tail`
-- `nano`
-- `wc`
-- `less`
-- `du`
-- Text file inspection
-- Log file analysis
-- Text file analysis lab
+**Documentation:** [Day 02 overview](02-filesystem/README.md) · [Filesystem organization lab](02-filesystem/labs/filesystem-organization/README.md)
 
-**Documentation:** [Day 3 overview](03-text-processing/README.md) · [Text file analysis lab](03-text-processing/labs/text-file-analysis/README.md)
+### Day 03 — Text Files and Disk Usage
 
-### 04 — Users + Privileges
-**Completed · August 28, 2026**
+**Status:** ✅ Completed · August 27, 2026
 
-Topics covered:
-- Linux users and user types
-- `whoami`
-- `id`
-- `groups`
-- `sudo`
-- `su`
-- User management
-- Group management
-- `/etc/passwd`
-- `/etc/group`
-- `/etc/shadow`
-- Created and managed a test user and group
+Worked with text files and basic file-analysis tools, including a sample contribution log.
 
-**Documentation:** [Day 4 overview](04-users-system/README.md) · [User management lab](04-users-system/labs/user-management/README.md)
+**Concepts and commands**
+- Inspecting file contents using `cat`, `head`, and `tail`.
+- Editing text files with `nano`.
+- Counting lines, words, and bytes using `wc`.
+- Viewing larger files with `less`.
+- Inspecting directory and file space usage with `du`.
+- Inspecting and analysing text-based data from the terminal.
 
-### 05 — Permissions + Package Management
+**Documentation:** [Day 03 overview](03-text-processing/README.md) · [Text file analysis lab](03-text-processing/labs/text-file-analysis/README.md)
 
-**Completed · August 29, 2026**
+### Day 04 — Users, Groups, and Privileges
 
-Topics covered:
+**Status:** ✅ Completed · August 28, 2026
 
-- Linux file permissions
-- Owner, group, and others
-- Read, write, and execute permissions
-- `ls -l`
-- `chmod`
-- `chown`
-- `chgrp`
-- Numeric permissions
-- APT package management
-- `apt update`
-- `apt install`
-- `apt remove`
-- `apt upgrade`
-- `apt autoremove`
-- Permissions and package management labs
-- Practice Exam 1 — **18/30 (60%) · Passed** (reported by the author; no exam record in this repository)
+Explored how Linux identifies users, manages groups, and controls administrative access.
 
-**Documentation:**
+**Concepts and commands**
+- Identifying the current user using `whoami`.
+- Inspecting user and group information with `id` and `groups`.
+- Understanding administrative privileges using `sudo`.
+- Switching users with `su`.
+- Examining `/etc/passwd`, `/etc/group`, and `/etc/shadow`.
+- Creating and managing test users and groups.
+- Understanding how user identity, group membership, and access fit together.
 
-- [Day 5 overview](05-permissions-packages/README.md)
-- [Permissions lab](05-permissions-packages/labs/permissions/README.md)
-- [Package management lab](05-permissions-packages/labs/package-management/README.md)
+**Documentation:** [Day 04 overview](04-users-system/README.md) · [User management lab](04-users-system/labs/user-management/README.md)
 
-### 06 — Linux Security + Permissions Lab
+### Day 05 — Permissions and Package Management
 
-**In Progress · August 30, 2026**
+**Status:** ✅ Completed · August 29, 2026
 
-Hands-on lab focused on Linux access control, user/group permissions, and security troubleshooting.
+Studied Linux permission bits, file ownership, and package management with APT.
 
-#### Topics Covered
+**Concepts and commands**
+- Owner, group, and others.
+- Read, write, and execute permissions.
+- Inspecting permissions with `ls -l`.
+- Changing permissions with `chmod`.
+- Changing ownership and groups using `chown` and `chgrp`.
+- Numeric permission notation.
+- Refreshing package information using `apt update`.
+- Installing and removing packages with `apt install` and `apt remove`.
+- Understanding `apt upgrade` and `apt autoremove`.
 
-- Linux permission model: owner, group, and others
-- Read (`r`), write (`w`), and execute (`x`) permissions
-- Numeric permissions: `640`, `644`, `660`, `750`, `755`, `775`
-- File and directory permission differences
-- User and supplementary group membership
-- File ownership and group ownership
-- `chmod`, `chown`, `chgrp`
-- `ls -l`, `ls -ld`, `stat`, and `namei -l`
-- Directory traversal and access control
-- Executable scripts and group-based access
-- Principle of least privilege
+**Documentation:** [Day 05 overview](05-permissions-packages/README.md) · [Permissions lab](05-permissions-packages/labs/permissions/README.md) · [Package management lab](05-permissions-packages/labs/package-management/README.md)
 
-#### Practical Lab
+### Day 06 — Linux Security and Access Control
 
-- Created and tested three Linux users: `usera`, `userb`, and `userc`
-- Used `securityteam` and `logreaders` to practise group-based access
-- Tested confidential-file access under different user accounts
-- Troubleshot incorrect permissions, ownership, and group membership
-- Tested shell-script execution under different user accounts
-- Used `namei -l` to investigate directory traversal restrictions
-- Inspected file contents, ownership, and permission bits
+**Status:** ✅ Completed
 
-#### Key Learnings
+A practical security lab on Linux permissions, user and group access, ownership, and troubleshooting access-control problems.
 
-- File permissions and ownership work together to enforce access control.
-- Group-write permission does not fix an incorrect owning group.
-- Directory execute permission controls traversal.
-- Parent-directory permissions can prevent access to a file.
-- Changing permissions does not reverse modifications already made.
-- Least privilege means granting only the access each user requires.
+**Practical work**
+- Created and tested three users: `usera`, `userb`, and `userc`.
+- Used the `securityteam` and `logreaders` groups for access-control exercises.
+- Tested access to files under different user accounts.
+- Investigated permission, ownership, and group-membership problems.
+- Tested shell-script execution under different accounts.
+- Used `namei -l` to inspect directory traversal permissions.
+- Examined permission modes including `640`, `644`, `660`, `750`, `755`, and `775`.
 
-#### Lab Documentation
+**Key takeaways**
+- File permissions and ownership work together to control access.
+- Directory execute permission governs traversal.
+- A restrictive parent directory can block access even when the file's own permissions look correct.
+- Group permissions need the right group ownership and membership.
+- Least privilege means granting only the permissions a task requires.
 
-- [Day 6 — Detailed Lab Report](06-linux-security-lab/README.md)
-- [Permissions Quick Reference](06-linux-security-lab/permissions-reference.md)
-- [Verification Tests](06-linux-security-lab/verification.md)
+**Documentation:** [Detailed lab report](06-linux-security-lab/README.md) · [Permissions reference](06-linux-security-lab/permissions-reference.md) · [Verification tests](06-linux-security-lab/verification.md)
 
-**Status:** Practical tests and troubleshooting performed. Final permission restoration and post-restoration verification remain pending.
+### Day 07 — Pipes and Redirection
 
-### 07 — Pipes + Redirection
+**Status:** ✅ Completed
 
-**Completed · October 12, 2026**
+Practised controlling command input and output, separating error messages, and chaining commands into useful workflows.
 
-#### Topics Covered
+**Concepts and commands**
+- Standard input, standard output, and standard error.
+- `>` to redirect output and overwrite a file.
+- `>>` to append output.
+- `<` to read input from a file.
+- `2>` to redirect standard error.
+- `2>&1` to combine standard output and standard error.
+- `|` to pass output between commands.
+- `tee` to display and save output at the same time.
 
-- Standard input, standard output, and standard error
-- `>` — redirect output and overwrite files
-- `>>` — append output to files
-- `<` — read input from a file
-- `2>` — redirect errors
-- `2>&1` — combine standard error with standard output
-- `|` — pipe output between commands
-- `tee` — display and save output simultaneously
-- Log filtering and command chaining
+**Documentation:** [Day 07 overview](07-redirection-pipes/README.md) · [Redirection practice lab](07-redirection-pipes/labs/redirection-practice/README.md)
 
-#### Practical Lab
+### Day 08 — Grep and Text Processing
 
-- Redirected command output into files
-- Tested overwriting and appending output
-- Separated error messages from normal output
-- Combined standard output and standard error
-- Filtered log entries using pipes
-- Saved filtered results for later inspection
+**Status:** ✅ Completed · September 1, 2026
 
-#### Key Learnings
+Worked with a synthetic security log and practised pulling useful information out of text with standard Linux utilities.
 
-- Redirection controls where command input and output go.
-- Pipes pass one command's output to another command.
-- Standard output and standard error are separate streams.
-- `>` overwrites a file, while `>>` appends to it.
-- Combining pipes and redirection makes command-line workflows more efficient.
+**Concepts and commands**
+- Filtering matching lines with `grep`.
+- Extracting fields using `cut`.
+- Sorting output using `sort`.
+- Counting repeated entries with `uniq`.
+- Replacing text with `sed`.
+- Combining commands for log analysis.
+- Checking summary counts against the source dataset.
 
-#### Lab Documentation
+The repository contains `security.log` and `summary.txt`, and the summary counts match the log.
 
-- [Day 7 — Detailed Lab Report](07-redirection-pipes/README.md)
-- [Day 7 — Redirection Practice Lab](07-redirection-pipes/labs/redirection-practice/README.md)
+**Documentation:** [Day 08 overview](08-grep-text-processing/README.md) · [Security log analysis lab](08-grep-text-processing/labs/security-log-analysis/README.md)
 
-**Status:** Completed · Practice files committed and pushed to GitHub.
+### Day 09 — Environment Variables and PATH
 
-### 08 — Grep + Text Processing
+**Status:** ✅ Completed
 
-**Completed · September 1, 2026**
+Explored how the shell stores configuration, passes environment variables to programs, finds executable commands, and supports shortcuts.
 
-Practised filtering and analysing a synthetic security log using `grep`, `cut`, `sort`, `uniq`, and `sed`.
+**Concepts and commands**
+- Inspecting variables with `env` and `printenv`.
+- Defining variables and exporting them with `export`.
+- Understanding the colon-separated `PATH` variable.
+- Locating commands with `command -v` and examining command types with `type`.
+- Configuring shell startup behaviour with `.bashrc`.
+- Creating, inspecting, and removing aliases.
 
-#### Lab Documentation
+**Documentation:** [Day 09 lab and notes](09-environment-path/README.md)
 
-- [Day 8 — Lab Overview](08-grep-text-processing/README.md)
-- [Day 8 — Security Log Analysis Lab](08-grep-text-processing/labs/security-log-analysis/README.md)
+### Day 10 — Bash Expansions
 
-**Status:** Completed · Lab files committed and pushed to GitHub.
+**Status:** ✅ Completed
 
-### 09 — Environment Variables and PATH
+Practised how Bash interprets variables, patterns, quotation marks, filenames, and command output.
 
-**Topics:** Environment variables, `env`, `export`, `$PATH`, variable scope, Bash aliases, and `.bashrc`.
+**Concepts and commands**
+- Home-directory expansion using `~` and `$HOME`.
+- Variable expansion using `$VARIABLE` and `${VARIABLE}`.
+- Filename globbing using `*`, `?`, and character sets.
+- Single quotes, double quotes, and escaping.
+- Word splitting and filenames containing spaces.
+- Command substitution using `$(command)`.
+- Handling filenames with special characters.
 
-**Lab:** [09 - Environment Variables and PATH](09-environment-path/README.md)
+The lab uses deliberately awkward file names such as `access log.txt`, `notes with spaces.md`, and `special's file.txt`.
 
-**Security connection:** PATH hijacking, process environment, and shell startup-file security.
+**Security connection:** careful quoting and input handling stop shell scripts from treating filenames and input as unintended arguments.
 
-### 10 — Bash Expansions
+**Documentation:** [Day 10 overview](10-bash-expansions/README.md) · [Bash expansions lab](10-bash-expansions/labs/bash-expansions/README.md)
 
-**Topics:** Variables, wildcards, quoting, escaping, word splitting, and command substitution.
+### Day 11 — SSH and Webserver Essentials
 
-**Lab:** [10 - Bash Expansions](10-bash-expansions/README.md) · [Lab](10-bash-expansions/labs/bash-expansions/README.md)
+**Status:** ✅ Completed
 
-**Security connection:** Safely handling filenames, processing logs, and writing reliable shell scripts.
+Remote access, authentication, file transfers, service management, web hosting, and log inspection.
 
-### 11 — SSH and Webserver Essentials
-
-**In progress · 2 of 8 checklist items reported complete**
-
-**Topics:** SSH, key verification, SCP/SFTP, Apache, `systemctl`, and log inspection.
-
+**Checklist**
 - [x] SSH server installed and running
 - [x] Connected successfully using SSH
-- [ ] SSH key pair generated · [lab](11-ssh-webserver/labs/ssh-key-authentication/README.md)
-- [ ] Test file transferred with `scp` or `sftp` · [lab](11-ssh-webserver/labs/file-transfer/README.md)
-- [ ] Apache installed, started and stopped, page opened, logs inspected · [lab](11-ssh-webserver/labs/apache-service-and-logs/README.md)
+- [x] Generated an SSH key pair safely
+- [x] Transferred a test file using `scp` or `sftp`
+- [x] Installed Apache and checked its status
+- [x] Started and stopped Apache successfully
+- [x] Opened the local web page
+- [x] Inspected Apache access and error logs
 
-**Lab:** [11-ssh-webserver](11-ssh-webserver/README.md)
+**Documentation:** [Day 11 overview](11-ssh-webserver/README.md) · [SSH key authentication](11-ssh-webserver/labs/ssh-key-authentication/README.md) · [File transfer](11-ssh-webserver/labs/file-transfer/README.md) · [Apache service and logs](11-ssh-webserver/labs/apache-service-and-logs/README.md)
 
-### 12 — Linux Final Lab
+### Day 12 — Linux Final Lab
 
-**Reported complete · unverified**
+**Status:** ✅ Completed
 
-Independent final practical challenge consolidating earlier topics. No notes or output are recorded, and it overlaps the SSH items not yet done in Day 11.
+An independent practical challenge that brings together the skills from the whole roadmap.
 
-**Lab:** [12-linux-final-lab](12-linux-final-lab/README.md) · [Final challenge (Not started)](12-linux-final-lab/labs/final-challenge/README.md)
+The challenge covers:
+- Filesystem navigation and file operations.
+- Users, groups, ownership, and permissions.
+- Package management and text processing.
+- Pipes, redirection, environment variables, and Bash expansions.
+- SSH, file transfers, services, and system logs.
 
-## Course Mapping and Audit
+**Documentation:** [Day 12 overview](12-linux-final-lab/README.md) · [Final challenge](12-linux-final-lab/labs/final-challenge/README.md)
 
-- [Course mapping](docs/COURSE-MAP.md) — how topic numbers relate to the official course sections
-- [Repository audit](docs/REPOSITORY-AUDIT.md) — what was found, moved, created, and left unverified
+## 🚀 What's Next
+
+1. Revise the whole roadmap and tidy the notes.
+2. Move on to networking fundamentals.
+3. Keep adding terminal output and screenshots to the labs as proof of the work.
+4. Build on these foundations toward system administration and cybersecurity.
+
+---
+
+*This repository is a work in progress and is updated as I learn.*
